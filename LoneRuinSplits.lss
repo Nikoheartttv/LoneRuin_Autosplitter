@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Run version="1.7.0">
   <GameIcon />
   <GameName>
@@ -16,13 +16,8 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>6</AttemptCount>
-  <AttemptHistory>
-    <Attempt id="1" started="01/12/2023 23:55:48" isStartedSynced="True" ended="01/12/2023 23:55:53" isEndedSynced="True" />
-    <Attempt id="2" started="01/12/2023 23:56:04" isStartedSynced="True" ended="01/12/2023 23:59:38" isEndedSynced="True" />
-    <Attempt id="3" started="01/12/2023 23:59:53" isStartedSynced="True" ended="01/13/2023 00:03:17" isEndedSynced="True" />
-    <Attempt id="4" started="01/13/2023 00:03:38" isStartedSynced="True" ended="01/13/2023 00:15:38" isEndedSynced="True" />
-  </AttemptHistory>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory />
   <Segments>
     <Segment>
       <Name>Infected Gardens 1</Name>
@@ -30,24 +25,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:08.0784178</RealTime>
-        <GameTime>00:00:06.8077954</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="2">
-          <RealTime>00:00:08.0784178</RealTime>
-          <GameTime>00:00:06.8077954</GameTime>
-        </Time>
-        <Time id="3">
-          <RealTime>00:00:16.2365465</RealTime>
-          <GameTime>00:00:14.9850109</GameTime>
-        </Time>
-        <Time id="4">
-          <RealTime>00:00:10.9970434</RealTime>
-          <GameTime>00:00:09.7304159</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Infected Gardens 2</Name>
@@ -55,20 +34,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:50.7643176</RealTime>
-        <GameTime>00:00:45.2825160</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="2">
-          <RealTime>00:00:50.7643176</RealTime>
-          <GameTime>00:00:45.2825160</GameTime>
-        </Time>
-        <Time id="4">
-          <RealTime>00:03:07.5466050</RealTime>
-          <GameTime>00:03:01.7422694</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Infected Gardens 3</Name>
@@ -76,20 +43,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:49.8315474</RealTime>
-        <GameTime>00:00:44.1270288</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="2">
-          <RealTime>00:00:53.8032967</RealTime>
-          <GameTime>00:00:48.1445819</GameTime>
-        </Time>
-        <Time id="4">
-          <RealTime>00:00:49.8315474</RealTime>
-          <GameTime>00:00:44.1270288</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Infected Gardens 4</Name>
@@ -97,20 +52,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:49.5650219</RealTime>
-        <GameTime>00:00:43.5190287</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="2">
-          <RealTime>00:00:54.2118127</RealTime>
-          <GameTime>00:00:46.7529819</GameTime>
-        </Time>
-        <Time id="4">
-          <RealTime>00:00:49.5650219</RealTime>
-          <GameTime>00:00:43.5190287</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Infected Gardens 5</Name>
@@ -118,16 +61,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:01:31.9826296</RealTime>
-        <GameTime>00:01:26.9682114</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="4">
-          <RealTime>00:01:31.9826296</RealTime>
-          <GameTime>00:01:26.9682114</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Infected Gardens 6</Name>
@@ -135,16 +70,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:54.0660884</RealTime>
-        <GameTime>00:00:48.3978208</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="4">
-          <RealTime>00:00:54.0660884</RealTime>
-          <GameTime>00:00:48.3978208</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Infect Gardens 7</Name>
@@ -152,16 +79,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:01:59.5341895</RealTime>
-        <GameTime>00:01:49.5102138</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="4">
-          <RealTime>00:01:59.5341895</RealTime>
-          <GameTime>00:01:49.5102138</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Ghoul Grave 1</Name>
@@ -169,16 +88,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:18.8559770</RealTime>
-        <GameTime>00:00:15.5461857</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="4">
-          <RealTime>00:00:18.8559770</RealTime>
-          <GameTime>00:00:15.5461857</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Ghoul Grave 2</Name>
@@ -186,16 +97,8 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:01:06.5809473</RealTime>
-        <GameTime>00:01:00.5195800</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="4">
-          <RealTime>00:01:06.5809473</RealTime>
-          <GameTime>00:01:00.5195800</GameTime>
-        </Time>
-      </SegmentHistory>
+      <BestSegmentTime />
+      <SegmentHistory />
     </Segment>
     <Segment>
       <Name>Ghoul Grave 3</Name>
