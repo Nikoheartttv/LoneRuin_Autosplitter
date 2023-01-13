@@ -9,7 +9,7 @@ startup
 
 	vars.lastLevel = "Goop Temple - 6/7";
 
-	var levels = new Dictionary<string, string>()
+	var levels = new Dictionary<string, string>
 	{
 		{ "Infected Gardens - 0/7", "Infected Gardens 1" },
 		{ "Infected Gardens - 1/7", "Infected Gardens 2" },
@@ -65,14 +65,14 @@ init
 update
 {
 	current.Scene = vars.Helper.Scenes.Active.Name;
-	if (old.Scene != current.Scene) print("Scene Change: " + current.Scene);
+	if (old.Scene != current.Scene) vars.Log("Scene Change: " + current.Scene);
 
 	// logging
-	if (old.runStartTime != current.runStartTime) vars.Log("runStartTime change: " + current.runStartTime.ToString());
-	if (old.Level != current.Level) vars.Log("Level change: " + current.Level.ToString());
-	if (old.ControlState != current.ControlState) vars.Log("ControlState change: " + current.ControlState.ToString());
+	if (old.runStartTime != current.runStartTime) vars.Log("runStartTime change: " + current.runStartTime);
+	if (old.Level != current.Level) vars.Log("Level change: " + current.Level);
+	if (old.ControlState != current.ControlState) vars.Log("ControlState change: " + current.ControlState);
 	if (current.Level == vars.lastLevel && old.ControlState != 1 && current.ControlState == 1) current.lastLevelPauses++;
-	if (current.lastLevelPauses != old.lastLevelPauses) vars.Log("LastLevelPauses update: " + current.lastLevelPauses.ToString());
+	if (current.lastLevelPauses != old.lastLevelPauses) vars.Log("LastLevelPauses update: " + current.lastLevelPauses);
 }
 
 start
@@ -100,14 +100,4 @@ reset
 isLoading
 {
 	return current.ControlState == 1;
-}
-
-exit
-{
-	vars.Helper.Dispose();
-}
-
-shutdown
-{
-	vars.Helper.Dispose();
 }
