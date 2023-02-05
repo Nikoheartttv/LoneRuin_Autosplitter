@@ -80,7 +80,7 @@ update
 
 start
 {
-	return current.ControlState == 2;
+	return current.ControlState == 2 && current.Level == "Infected Gardens - 0/8";
 }
 
 onStart
