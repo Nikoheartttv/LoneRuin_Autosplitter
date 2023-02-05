@@ -11,27 +11,30 @@ startup
 
 	var levels = new Dictionary<string, string>
 	{
-		{ "Infected Gardens - 0/7", "Infected Gardens 1" },
-		{ "Infected Gardens - 1/7", "Infected Gardens 2" },
-		{ "Infected Gardens - 2/7", "Infected Gardens 3" },
-		{ "Infected Gardens - 3/7", "Infected Gardens 4" },
-		{ "Infected Gardens - 4/7", "Infected Gardens 5" },
-		{ "Infected Gardens - 5/7", "Infected Gardens 6" },
-		{ "Infected Gardens - 6/7", "Infected Gardens 7" },
-		{ "Ghoul grave - 0/7", "Ghoul Grave 1" },
-		{ "Ghoul grave - 1/7", "Ghoul Grave 2" },
-		{ "Ghoul grave - 2/7", "Ghoul Grave 3" },
-		{ "Ghoul grave - 3/7", "Ghoul Grave 4" },
-		{ "Ghoul grave - 4/7", "Ghoul Grave 5" },
-		{ "Ghoul grave - 5/7", "Ghoul Grave 6" },
-		{ "Ghoul grave - 6/7", "Ghoul Grave 7" },
-		{ "Goop Temple - 0/7", "Goop Temple 1" },
-		{ "Goop Temple - 1/7", "Goop Temple 2" },
-		{ "Goop Temple - 2/7", "Goop Temple 3" },
-		{ "Goop Temple - 3/7", "Goop Temple 4" },
-		{ "Goop Temple - 4/7", "Goop Temple 5" },
-		{ "Goop Temple - 5/7", "Goop Temple 6" },
-		{ "Goop Temple - 6/7", "Goop Temple 7" },
+		{ "Infected Gardens - 0/8", "Infected Gardens 1" },
+		{ "Infected Gardens - 1/8", "Infected Gardens 2" },
+		{ "Infected Gardens - 2/8", "Infected Gardens 3" },
+		{ "Infected Gardens - 3/8", "Infected Gardens 4" },
+		{ "Infected Gardens - 4/8", "Infected Gardens 5" },
+		{ "Infected Gardens - 5/8", "Infected Gardens 6" },
+		{ "Infected Gardens - 6/8", "Infected Gardens 7" },
+		{ "Infected Gardens - 7/8", "Infected Gardens 8" },
+		{ "Ghoul grave - 0/8", "Ghoul Grave 1" },
+		{ "Ghoul grave - 1/8", "Ghoul Grave 2" },
+		{ "Ghoul grave - 2/8", "Ghoul Grave 3" },
+		{ "Ghoul grave - 3/8", "Ghoul Grave 4" },
+		{ "Ghoul grave - 4/8", "Ghoul Grave 5" },
+		{ "Ghoul grave - 5/8", "Ghoul Grave 6" },
+		{ "Ghoul grave - 6/8", "Ghoul Grave 7" },
+		{ "Ghoul grave - 7/8", "Ghoul Grave 8" },
+		{ "Goop Temple - 0/8", "Goop Temple 1" },
+		{ "Goop Temple - 1/8", "Goop Temple 2" },
+		{ "Goop Temple - 2/8", "Goop Temple 3" },
+		{ "Goop Temple - 3/8", "Goop Temple 4" },
+		{ "Goop Temple - 4/8", "Goop Temple 5" },
+		{ "Goop Temple - 5/8", "Goop Temple 6" },
+		{ "Goop Temple - 6/8", "Goop Temple 7" },
+		{ "Goop Temple - 7/8", "Goop Temple 8" },
 	};
 
 	settings.Add("levels", true, "Split on end of level");
@@ -77,12 +80,12 @@ update
 
 start
 {
-	return old.ControlState == 1 && current.ControlState == 2 && current.Level == "Infected Gardens - 0/7";
+	return current.ControlState == 2;
 }
 
 onStart
 {
-	if (current.ControlState == 1) timer.IsGameTimePaused = true;
+	if (current.ControlState != 2) timer.IsGameTimePaused = true;
 	current.lastLevelPauses = 0;
 }
 
